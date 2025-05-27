@@ -15,25 +15,26 @@ const Hero = () => {
                 </div>
 
 
-                <div className="basis-1/2 text-center md:text-left space-y-6">
-                    <h3 className="text-4xl md:text-6xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-blue-300 via-indigo-300 to-purple-300">
-                        Hi, I'm Akshya Singh{" "}
-                        <span className="inline-block animate-waving-hand" style={{ background: "none", color: "#FFB400" }}>
-                            👋
-                        </span>
-                    </h3>
+                <div className="basis-1/2 text-center md:text-left space-y-4">
+  <h3 className="text-3xl md:text-5xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-blue-300 via-indigo-300 to-purple-300">
+    Hi, I'm Akshya Singh{" "}
+    <span
+      className="inline-block animate-waving-hand"
+      style={{ background: "none", color: "#FFB400" }}
+    >
+      👋
+    </span>
+  </h3>
 
-                    <p className="text-2xl text-gray-200 font-semibold tracking-wide">
-                        Frontend Developer · React & Redux Specialist · Node.js Enthusiast
-                    </p>
+  <p className="text-xl text-gray-200 font-semibold tracking-wide">
+    Frontend Developer · React & Redux · Node.js Enthusiast
+  </p>
 
-                    <p className="text-lg md:text-xl text-gray-100 leading-relaxed">
-                        I craft <span className="text-emerald-300 font-medium">responsive</span> and <span className="text-cyan-300 font-medium">scalable</span> web applications using <strong>React, Redux, JavaScript</strong>, and <strong>Tailwind CSS</strong>.
-                        With a solid foundation in frontend architecture and a growing proficiency in <strong>Node.js</strong>, I focus on delivering <span className="text-blue-300 font-medium">seamless user experiences</span> and <span className="text-blue-200 font-medium">efficient client-server interactions</span>.
-                        <br />
-                        Passionate about <strong>clean code</strong>, <strong>modern UI practices</strong>, and <strong>continuous learning</strong> in the evolving web development landscape.
-                    </p>
-                </div>
+  <p className="text-base md:text-lg text-gray-300 leading-relaxed max-w-md">
+    I build <span className="text-emerald-300 font-medium">responsive</span>, <span className="text-cyan-300 font-medium">scalable</span> web apps with <strong>React, Redux, JavaScript</strong>, and <strong>Tailwind CSS</strong>.  
+    Skilled in <strong>Node.js</strong>, I focus on <span className="text-blue-300 font-medium">smooth user experiences</span> and <span className="text-blue-200 font-medium">efficient client-server flows</span>.
+  </p>
+</div>
             </div>
         </section>
     );
