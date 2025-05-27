@@ -3,7 +3,7 @@ import aps from "../assets/aps.jpg";
 
 const Hero = () => {
     return (
-       <section className="w-full h-220 py-16 text-white flex items-center">
+       <section className="w-full h-150 py-16 text-white flex items-center">
             <div className="w-full px-6 md:px-16 flex flex-col md:flex-row items-center justify-between gap-10">
 
                 <div className="basis-1/2 flex justify-center">
